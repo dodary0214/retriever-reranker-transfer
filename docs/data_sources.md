@@ -10,7 +10,7 @@ Pyserini prebuilt indexes. Check the license of each collection before using or 
 |---|---|---|---|---|
 | `dl19` | TREC Deep Learning 2019, passage task (MS MARCO v1 passages) | `msmarco-passage/trec-dl-2019/judged` | `msmarco-v1-passage`, `.splade-pp-ed`, `.bge-base-en-v1.5` | 43 |
 | `dl20` | TREC Deep Learning 2020, passage task | `msmarco-passage/trec-dl-2020/judged` | same as `dl19` | 54 |
-| `nfcorpus` | BEIR NFCorpus, test | `beir/nfcorpus/test` | `beir-v1.0.0-nfcorpus.{flat,splade-pp-ed,bge-base-en-v1.5}` | 228 of 323 |
+| `nfcorpus` | BEIR NFCorpus, test | `beir/nfcorpus/test` | `beir-v1.0.0-nfcorpus.{flat,splade-pp-ed,bge-base-en-v1.5}` | 228 of 308 |
 | `fiqa` | BEIR FiQA-2018, test | `beir/fiqa/test` | `beir-v1.0.0-fiqa.*` | 476 of 648 |
 | `scifact` | BEIR SciFact, test | `beir/scifact/test` | `beir-v1.0.0-scifact.*` | 184 of 300 |
 | `dbpedia` | BEIR DBpedia-Entity, test | `beir/dbpedia-entity/test` | `beir-v1.0.0-dbpedia-entity.*` | 304 of 400 |
@@ -37,7 +37,7 @@ Pyserini prebuilt indexes. Check the license of each collection before using or 
 | Pointwise reranker | `bge-m3` | `BAAI/bge-reranker-v2-m3` |
 | Pointwise reranker | `monot5` | `castorini/monot5-base-msmarco-10k` |
 | Listwise reranker | `zephyr` | `castorini/rank_zephyr_7b_v1_full` |
-| Listwise reranker | `first` | `castorini/first_mistral` |
+| Listwise reranker | `first` | `castorini/first_mistral` (FIRST objective on Mistral-7B-Instruct-v0.3, trained on the RankZephyr GPT-4 ranking data; Chen et al., SIGIR 2025) |
 | Pointwise reranker (robustness only) | `qwen` | `Qwen/Qwen3-Reranker-4B` |
 | Experiment 2 control | — | `BAAI/bge-reranker-v2-m3` |
 

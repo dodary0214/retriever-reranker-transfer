@@ -1,6 +1,6 @@
 # Environment
 
-The reported results were produced on one host with an NVIDIA GB10 (aarch64, 119 GB unified CPU/GPU memory,
+The reported results were produced on one NVIDIA DGX Spark host (GB10 aarch64, 119 GB unified CPU/GPU memory,
 CUDA 13.0, driver 580). Two Python 3.12 environments were used.
 
 | Environment | Used for | Key packages |

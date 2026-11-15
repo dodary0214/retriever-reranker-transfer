@@ -108,8 +108,8 @@ python scripts/compare_outputs.py
 
 The stored model outputs (first-stage runs, pointwise scores, listwise rankings, same-input reruns, Qwen3-Reranker-4B
 scores, Experiment 2 pairs, conditions and model outputs; no document text) are not part of the git repository. Their
-checksums are listed in `results/manifests/model_outputs.sha256`; the archive is available from the author on request
-until it is deposited in a public archive.
+checksums are listed in `results/manifests/model_outputs.sha256`; the archive is available from the corresponding author of
+the article on request until it is deposited in a public archive.
 
 What can be reproduced from what:
 
@@ -136,9 +136,35 @@ Selected values (relevant-set-identical units, 95% query-bootstrap intervals):
 | Quantity | Value | File |
 |---|---|---|
 | κ of the per-query top-1 reranker, k = 0 / 1 / 2 | 0.900 [0.861, 0.935] / 0.755 [0.712, 0.795] / 0.676 [0.618, 0.732] | `derived/ksets_groups.csv` |
-| Replacement flips of shared relevant–non-relevant pairs, RankZephyr-7B / FIRST-7B | 17.1% / 13.7% (same-input rerun: 1.2% / 0%) | `tables/table2_replacement_flips.csv` |
+| Replacement reversals of shared relevant–non-relevant pairs, RankZephyr-7B / FIRST-7B | 17.1% / 13.7% (same-input rerun: 1.2% / 0%) | `tables/table2_replacement_flips.csv` |
 | Experiment 2 reversal after reordering only (C0), RankZephyr-7B / FIRST-7B | 9.0% / 6.3% (repeat R: 0% / 0%) | `figures/fig4_values.csv` |
 | Oracle gain retention, k = 0 / 1 / 2 | 0.722 / 0.576 / 0.472 | `derived/ksets_table3_groups.csv` |
+
+## Correspondence with the article
+
+The output files keep the names used while the analysis was developed, so some file names and the headings in
+`RESULTS.md` carry figure, table and appendix numbers that differ from the article. "Flip" in file and column names
+means the same as "reversal" in the article. `PW4` is the k = 0 set and `MIX4` is the k = 2 set fixed before the
+15-set analysis. Paths are relative to `results/summary/`.
+
+| Article | Content | Files |
+|---|---|---|
+| Table 1(a) | datasets and evaluation queries | `tables/table1a_queries.csv` |
+| Table 1(b) | rerankers, mean nDCG@10 and Judged@10 | `tables/table1b_rerankers.csv` |
+| Fig. 2(a) | candidate overlap, relevant-set-identical share | `figures/fig2_values.csv` |
+| Fig. 2(b), Sec. 5.1 | κ by four-reranker set and k group; all-query κ | `derived/ksets_sets.csv`, `derived/ksets_groups.csv`, `derived/ksets_group_diffs.csv` |
+| Sec. 5.1 | winner-margin strata | `derived/ksets_margin_kappa.csv` |
+| Sec. 5.2 | sign agreement of pairwise preferences (`RESULTS.md`: "Fig. 3") | `tables/fig3_sign_agreement.csv`, `derived/ksets_robust_gapmatched.csv` |
+| Table 2 | pair-order reversals across retrievers and same-input reruns | `tables/table2_replacement_flips.csv`, `tables/appendixD_same_input_flips.csv` |
+| Fig. 3 | Experiment 2 controlled reversals (`RESULTS.md`: "Fig. 4") | `figures/fig4_values.csv` |
+| Fig. 4, Sec. 7 | significance agreement, Kendall's τ, oracle gain retention; nDCG@10 behind the retention | `derived/ksets_table3_groups.csv`, `derived/ksets_table3_group_diffs.csv`, `derived/ksets_selection_ndcg.csv` |
+| Table A1 | sensitivity of the k = 0 − k = 2 difference | `derived/ksets_robust_A3.csv`, `derived/ksets_robust_S3.csv`, `derived/qwen_kappa.csv` |
+| Table A2 | agreement by dataset | `derived/ksets_robust_B1.csv` |
+| Table A3 | matched-core substitutions | `derived/matched_swap_swaps_summary.csv`, `derived/matched_swap_model_identity.csv` |
+| Fig. A1 | reversal rate and top-1 change (`RESULTS.md`: "Fig. 5") | `derived/ksets_fig5_groups.csv` |
+| Table A4 | Experiment 2 conditions | `results/manifests/experiment2_pairs.tsv`, `controlled_context/*.csv` |
+
+The plotted figures are in `results/figures/` under descriptive names (see its README).
 
 Some category labels in the output tables are in Korean; [docs/output_labels.md](docs/output_labels.md) translates them.
 
