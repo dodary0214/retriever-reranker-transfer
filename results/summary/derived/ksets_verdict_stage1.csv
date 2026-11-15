@@ -1,0 +1,2 @@
+stage,verdict,monotone,k0_k2,lo,hi,mix4_rank_k2,confound_k1,confound_k2
+1,keep,True,0.22366787059336135,0.16097314206390576,0.28920508108700915,4,True,False

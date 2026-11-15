@@ -1,0 +1,97 @@
+scope,reranker,kind,pair_type,retriever_pair,n_pairs,flips,flip_rate,lo,hi,subset
+평가 질의,MiniLM,P,rel-nonrel,bm25–splade,168254,0,0.0,0.0,0.0,all
+평가 질의,MiniLM,P,rel-nonrel,bm25–dense,100888,0,0.0,0.0,0.0,all
+평가 질의,MiniLM,P,rel-nonrel,splade–dense,202746,0,0.0,0.0,0.0,all
+평가 질의,MiniLM,P,rel-nonrel,pooled,471888,0,0.0,0.0,0.0,all
+평가 질의,MiniLM,P,rel-rel,bm25–splade,65067,0,0.0,0.0,0.0,all
+평가 질의,MiniLM,P,rel-rel,bm25–dense,50572,0,0.0,0.0,0.0,all
+평가 질의,MiniLM,P,rel-rel,splade–dense,90748,0,0.0,0.0,0.0,all
+평가 질의,MiniLM,P,rel-rel,pooled,206387,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-nonrel,bm25–splade,168288,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-nonrel,bm25–dense,100919,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-nonrel,splade–dense,202776,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-nonrel,pooled,471983,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-rel,bm25–splade,65100,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-rel,bm25–dense,50603,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-rel,splade–dense,90809,0,0.0,0.0,0.0,all
+평가 질의,bge-base,P,rel-rel,pooled,206512,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-nonrel,bm25–splade,168284,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-nonrel,bm25–dense,100906,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-nonrel,splade–dense,202799,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-nonrel,pooled,471989,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-rel,bm25–splade,65113,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-rel,bm25–dense,50609,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-rel,splade–dense,90819,0,0.0,0.0,0.0,all
+평가 질의,bge-m3,P,rel-rel,pooled,206541,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-nonrel,bm25–splade,168162,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-nonrel,bm25–dense,100848,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-nonrel,splade–dense,202653,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-nonrel,pooled,471663,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-rel,bm25–splade,65026,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-rel,bm25–dense,50542,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-rel,splade–dense,90713,0,0.0,0.0,0.0,all
+평가 질의,monoT5,P,rel-rel,pooled,206281,0,0.0,0.0,0.0,all
+평가 질의,RankZephyr,L,rel-nonrel,bm25–splade,168339,29299,0.17404760631820315,0.16403139759906726,0.18387458482054567,all
+평가 질의,RankZephyr,L,rel-nonrel,bm25–dense,100948,17683,0.17516939414351942,0.16424252587631083,0.186059070827206,all
+평가 질의,RankZephyr,L,rel-nonrel,splade–dense,202863,33607,0.165663526616485,0.15605619292372994,0.1756344094194596,all
+평가 질의,RankZephyr,L,rel-nonrel,pooled,472150,80589,0.1706851636132585,0.16201052157173668,0.17927234907556708,all
+평가 질의,RankZephyr,L,rel-rel,bm25–splade,65147,16610,0.25496185549603206,0.23907986670897313,0.2704381091040576,all
+평가 질의,RankZephyr,L,rel-rel,bm25–dense,50638,12604,0.24890398514949247,0.23319515505398392,0.2648040458594643,all
+평가 질의,RankZephyr,L,rel-rel,splade–dense,90861,19978,0.21987431351184777,0.2046953947355795,0.23561843243101077,all
+평가 질의,RankZephyr,L,rel-rel,pooled,206646,49192,0.2380496114127542,0.2245284663570442,0.25150546702159665,all
+평가 질의,FIRST,L,rel-nonrel,bm25–splade,168339,23937,0.1421952132304457,0.13342022997976552,0.150743417783907,all
+평가 질의,FIRST,L,rel-nonrel,bm25–dense,100948,14992,0.14851210524230296,0.138101106135286,0.15918712005216798,all
+평가 질의,FIRST,L,rel-nonrel,splade–dense,202863,25897,0.12765758171771097,0.11958275343487754,0.13575963376762243,all
+평가 질의,FIRST,L,rel-nonrel,pooled,472150,64826,0.13729958699565817,0.1296013025408555,0.14479991099195594,all
+평가 질의,FIRST,L,rel-rel,bm25–splade,65147,13779,0.21150628578445668,0.1970060062541574,0.22541797828583335,all
+평가 질의,FIRST,L,rel-rel,bm25–dense,50638,10880,0.21485840673012363,0.20150886675029073,0.227598932849096,all
+평가 질의,FIRST,L,rel-rel,splade–dense,90861,15846,0.17439825667778255,0.16299321627851504,0.186209734887441,all
+평가 질의,FIRST,L,rel-rel,pooled,206646,40505,0.19601153663753473,0.1858479812161107,0.20624708413866502,all
+평가 질의,MiniLM,P,rel-nonrel,bm25–splade,26470,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,MiniLM,P,rel-nonrel,bm25–dense,17719,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,MiniLM,P,rel-nonrel,splade–dense,57106,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,MiniLM,P,rel-nonrel,pooled,101295,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,MiniLM,P,rel-rel,bm25–splade,31899,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,MiniLM,P,rel-rel,bm25–dense,24371,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,MiniLM,P,rel-rel,splade–dense,55061,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,MiniLM,P,rel-rel,pooled,111331,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-nonrel,bm25–splade,26476,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-nonrel,bm25–dense,17723,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-nonrel,splade–dense,57125,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-nonrel,pooled,101324,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-rel,bm25–splade,31923,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-rel,bm25–dense,24396,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-rel,splade–dense,55111,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-base,P,rel-rel,pooled,111430,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-nonrel,bm25–splade,26474,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-nonrel,bm25–dense,17721,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-nonrel,splade–dense,57126,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-nonrel,pooled,101321,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-rel,bm25–splade,31933,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-rel,bm25–dense,24397,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-rel,splade–dense,55117,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,bge-m3,P,rel-rel,pooled,111447,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-nonrel,bm25–splade,26467,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-nonrel,bm25–dense,17715,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-nonrel,splade–dense,57096,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-nonrel,pooled,101278,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-rel,bm25–splade,31899,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-rel,bm25–dense,24371,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-rel,splade–dense,55061,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,monoT5,P,rel-rel,pooled,111331,0,0.0,0.0,0.0,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-nonrel,bm25–splade,26481,4733,0.17873192099996224,0.15356039724476914,0.20517748036202332,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-nonrel,bm25–dense,17727,3081,0.17380267388729057,0.14869412744015023,0.200108975004828,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-nonrel,splade–dense,57136,8232,0.14407728927471297,0.12625653489139851,0.16272251113407157,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-nonrel,pooled,101344,16046,0.15833201768234922,0.14091846930051566,0.1759087739912203,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-rel,bm25–splade,31946,8187,0.25627621611469353,0.22862574091200244,0.2801504779896675,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-rel,bm25–dense,24409,5970,0.24458191650620673,0.21656954949977159,0.27118310522451133,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-rel,splade–dense,55138,11399,0.20673582647176175,0.18421654685620256,0.23058581219055743,실험 2와 같은 질의
+평가 질의,RankZephyr,L,rel-rel,pooled,111493,25556,0.2292161839756756,0.20659643305656464,0.25162171950816564,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-nonrel,bm25–splade,26481,4431,0.16732751784298175,0.14761800080634835,0.18670177287951326,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-nonrel,bm25–dense,17727,3073,0.17335138489310092,0.15240649538293466,0.19467873110501735,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-nonrel,splade–dense,57136,7212,0.12622514701764212,0.1101864858670717,0.14255681672704826,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-nonrel,pooled,101344,14716,0.14520839911588254,0.13018197705546525,0.15979083758903087,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-rel,bm25–splade,31946,7243,0.22672635071683467,0.20460545407282346,0.24644155333637538,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-rel,bm25–dense,24409,5466,0.2239337949117129,0.201534562819142,0.24426815895345383,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-rel,splade–dense,55138,9061,0.16433312778845804,0.14864509248720836,0.18110802992352765,실험 2와 같은 질의
+평가 질의,FIRST,L,rel-rel,pooled,111493,21770,0.1952588951772757,0.17913470512888655,0.21133262425470586,실험 2와 같은 질의

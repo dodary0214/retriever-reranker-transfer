@@ -1,0 +1,23 @@
+# data roots, model outputs and analysis outputs (see docs/data_layout.md)
+/data/
+/outputs/
+*.parquet
+*.jsonl
+*.npy
+*.tar.gz
+*.zip
+/logs/
+# Python / editors
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv*/
+.env
+.DS_Store
+# document build files
+*.tex
+*.pdf
+!results/figures/*.pdf
+*.bib
+*.aux
+*.log

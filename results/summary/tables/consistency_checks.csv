@@ -1,0 +1,96 @@
+check,item,exp1,exp2,ok
+7.4 model identity,checkpoint RankZephyr,True,True,True
+7.4 model identity,checkpoint FIRST,True,True,True
+7.4 model identity,"RankZephyr prompt (rank_llm, context 4096)",True,True,True
+7.4 model identity,FIRST prompt (alpha template),True,True,True
+7.4 model identity,FIRST system message,True,True,True
+7.4 model identity,FIRST logits,True,True,True
+7.4 model identity,FIRST variable passages,True,True,True
+7.4 model identity,"FIRST ""["" prefix",True,True,True
+7.4 model identity,"FIRST sampling (1 token, logprobs 30)",True,True,True
+7.4 model identity,temperature 0,True,True,True
+7.4 model identity,vLLM enforce_eager False / max_logprobs 30,True,True,True
+7.4 model identity,vLLM seed,True,True,True
+7.4 model identity,max_model_len from rank_llm,True,True,True
+7.4 model identity,vLLM version (both .venv_llm),0.26.0,0.26.0,True
+7.4 model identity,"window (design difference, reported)",20 / stride 10 over 100,single window of 20,True
+7.5 experiment-2 queries,DL19+DL20 evaluation queries = experiment-2 queries,97,97,True
+8.1 evaluation set,"E ∪ F, all six rerankers present",1289,1289,True
+8.1 evaluation set,bundle TREC DL = sum of its datasets,97,97,True
+8.1 evaluation set,bundle BEIR = sum of its datasets,1192,1192,True
+8.3 cross-check,Fig2b vs appendix A κ all bm25–splade PW4,0.730337318645172,0.730337318645172,True
+8.3 cross-check,Fig2b vs appendix A κ all bm25–splade MIX4,0.5557950743581277,0.5557950743581277,True
+8.3 cross-check,Fig2b vs appendix A κ all bm25–dense PW4,0.6658940527435276,0.6658940527435276,True
+8.3 cross-check,Fig2b vs appendix A κ all bm25–dense MIX4,0.4627794860114642,0.4627794860114642,True
+8.3 cross-check,Fig2b vs appendix A κ all splade–dense PW4,0.8109572027393007,0.8109572027393007,True
+8.3 cross-check,Fig2b vs appendix A κ all splade–dense MIX4,0.5689915174363808,0.5689915174363808,True
+8.3 cross-check,Fig2b vs appendix A κ same_rel bm25–splade PW4,0.9125708021194957,0.9125708021194957,True
+8.3 cross-check,Fig2b vs appendix A κ same_rel bm25–splade MIX4,0.7033898305084746,0.7033898305084746,True
+8.3 cross-check,Fig2b vs appendix A κ same_rel bm25–dense PW4,0.8616746587974917,0.8616746587974917,True
+8.3 cross-check,Fig2b vs appendix A κ same_rel bm25–dense MIX4,0.6203011267324757,0.6203011267324757,True
+8.3 cross-check,Fig2b vs appendix A κ same_rel splade–dense PW4,0.9165472351606353,0.9165472351606353,True
+8.3 cross-check,Fig2b vs appendix A κ same_rel splade–dense MIX4,0.6998547684363401,0.6998547684363401,True
+8.3 cross-check,Fig3 vs sign table same_rel MiniLM–bge-base,0.9621689785624212,0.9621689785624212,True
+8.3 cross-check,Fig3 vs sign table same_rel MiniLM–bge-m3,0.9680981595092024,0.9680981595092024,True
+8.3 cross-check,Fig3 vs sign table same_rel MiniLM–monoT5,0.9761904761904762,0.9761904761904762,True
+8.3 cross-check,Fig3 vs sign table same_rel MiniLM–RankZephyr,0.874189364461738,0.874189364461738,True
+8.3 cross-check,Fig3 vs sign table same_rel MiniLM–FIRST,0.9273670557717251,0.9273670557717251,True
+8.3 cross-check,Fig3 vs sign table same_rel bge-base–bge-m3,0.9682320441988951,0.9682320441988951,True
+8.3 cross-check,Fig3 vs sign table same_rel bge-base–monoT5,0.9611041405269761,0.9611041405269761,True
+8.3 cross-check,Fig3 vs sign table same_rel bge-base–RankZephyr,0.8699878493317132,0.8699878493317132,True
+8.3 cross-check,Fig3 vs sign table same_rel bge-base–FIRST,0.9371221281741233,0.9371221281741233,True
+8.3 cross-check,Fig3 vs sign table same_rel bge-m3–monoT5,0.9630681818181818,0.9630681818181818,True
+8.3 cross-check,Fig3 vs sign table same_rel bge-m3–RankZephyr,0.8470906630581867,0.8470906630581867,True
+8.3 cross-check,Fig3 vs sign table same_rel bge-m3–FIRST,0.9207650273224044,0.9207650273224044,True
+8.3 cross-check,Fig3 vs sign table same_rel monoT5–RankZephyr,0.8451882845188284,0.8451882845188284,True
+8.3 cross-check,Fig3 vs sign table same_rel monoT5–FIRST,0.9075862068965517,0.9075862068965517,True
+8.3 cross-check,Fig3 vs sign table same_rel RankZephyr–FIRST,0.801125703564728,0.801125703564728,True
+8.3 cross-check,"Fig3 vs sign table same_rel [PP pooled, 6]",0.9663514405102265,0.9663514405102265,True
+8.3 cross-check,"Fig3 vs sign table same_rel [PL pooled, 8]",0.8917280917280918,0.8917280917280918,True
+8.3 cross-check,"Fig3 vs sign table same_rel [LL pooled, 1]",0.801125703564728,0.801125703564728,True
+8.3 cross-check,Fig3 vs sign table same_rel [PP − PL],0.07462334878213472,0.07462334878213472,True
+8.3 cross-check,Table2 vs appendix D RankZephyr,0.012036062837862353,0.012036062837862353,True
+8.3 cross-check,Table2 vs appendix D FIRST,0.0,0.0,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr R rate,0.0,0.0,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr R excess,-0.08994845360824744,-0.08994845360824744,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C0 rate,0.08994845360824744,0.08994845360824744,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C0 excess,0.0,0.0,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C1 rate,0.10223367697594501,0.10223367697594501,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C1 excess,0.012285223367697579,0.012285223367697579,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C2 rate,0.11211340206185569,0.11211340206185569,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C2 excess,0.022164948453608252,0.022164948453608252,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C3 rate,0.13015463917525774,0.13015463917525774,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C3 excess,0.040206185567010305,0.040206185567010305,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C4 rate,0.1056701030927835,0.1056701030927835,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C4 excess,0.015721649484536068,0.015721649484536068,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C5 rate,0.11211340206185569,0.11211340206185569,True
+8.3 cross-check,Fig4a vs experiment-2 table RankZephyr C5 excess,0.022164948453608252,0.022164948453608252,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST R rate,0.0,0.0,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST R excess,-0.06340206185567011,-0.06340206185567011,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C0 rate,0.06340206185567011,0.06340206185567011,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C0 excess,0.0,0.0,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C1 rate,0.0665807560137457,0.0665807560137457,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C1 excess,0.00317869415807559,0.00317869415807559,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C2 rate,0.07345360824742267,0.07345360824742267,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C2 excess,0.010051546391752555,0.010051546391752555,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C3 rate,0.07087628865979381,0.07087628865979381,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C3 excess,0.007474226804123699,0.007474226804123699,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C4 rate,0.06314432989690721,0.06314432989690721,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C4 excess,-0.00025773195876289956,-0.00025773195876289956,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C5 rate,0.06529209621993126,0.06529209621993126,True
+8.3 cross-check,Fig4a vs experiment-2 table FIRST C5 excess,0.0018900343642611478,0.0018900343642611478,True
+8.3 cross-check,Table1 nDCG vs stored grid bm25 MiniLM,0.4397653624208034,0.4397653624208034,True
+8.3 cross-check,Table1 nDCG vs stored grid bm25 bge-base,0.4223916021201384,0.4223916021201384,True
+8.3 cross-check,Table1 nDCG vs stored grid bm25 bge-m3,0.4650910854600992,0.4650910854600992,True
+8.3 cross-check,Table1 nDCG vs stored grid bm25 monoT5,0.46470850673875175,0.46470850673875175,True
+8.3 cross-check,Table1 nDCG vs stored grid splade MiniLM,0.45306444809462354,0.45306444809462354,True
+8.3 cross-check,Table1 nDCG vs stored grid splade bge-base,0.4273717894663402,0.4273717894663402,True
+8.3 cross-check,Table1 nDCG vs stored grid splade bge-m3,0.484598768777081,0.484598768777081,True
+8.3 cross-check,Table1 nDCG vs stored grid splade monoT5,0.4706335115267355,0.4706335115267355,True
+8.3 cross-check,Table1 nDCG vs stored grid dense MiniLM,0.4606434994849786,0.4606434994849786,True
+8.3 cross-check,Table1 nDCG vs stored grid dense bge-base,0.434211839523548,0.434211839523548,True
+8.3 cross-check,Table1 nDCG vs stored grid dense bge-m3,0.48912308935089294,0.48912308935089294,True
+8.3 cross-check,Table1 nDCG vs stored grid dense monoT5,0.47942724763656025,0.47942724763656025,True
+8.3 cross-check,Table3 PW4 sig mean = mean of pairs,0.7962962962962963,0.7962962962962963,True
+8.3 cross-check,Table3 MIX4 sig mean = mean of pairs,0.7962962962962963,0.7962962962962963,True
+8.3 cross-check,pointwise replacement flips (must be 0 by construction),0,0,True

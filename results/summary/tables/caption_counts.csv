@@ -1,0 +1,49 @@
+item,n_queries,n_notie,n_units,n_pairs
+Fig. 2(a),1289,,,
+Fig. 2(b) all bm25–splade PW4,1289,505.0,,
+Fig. 2(b) all bm25–splade MIX4,1289,466.0,,
+Fig. 2(b) all bm25–dense PW4,1289,492.0,,
+Fig. 2(b) all bm25–dense MIX4,1289,464.0,,
+Fig. 2(b) all splade–dense PW4,1289,562.0,,
+Fig. 2(b) all splade–dense MIX4,1289,538.0,,
+Fig. 2(b) same_rel bm25–splade PW4,632,174.0,,
+Fig. 2(b) same_rel bm25–splade MIX4,632,140.0,,
+Fig. 2(b) same_rel bm25–dense PW4,527,150.0,,
+Fig. 2(b) same_rel bm25–dense MIX4,527,119.0,,
+Fig. 2(b) same_rel splade–dense PW4,629,215.0,,
+Fig. 2(b) same_rel splade–dense MIX4,629,186.0,,
+Fig. 2(b) same-input κ,50,71.0,,
+Fig. 3,1289,,6105.0,
+Fig. 4,97,,,776.0
+Fig. 5 MIX4 0,29,,35.0,
+"Fig. 5 MIX4 (0, 0.1]",128,,208.0,
+"Fig. 5 MIX4 (0.1, 0.25]",115,,164.0,
+Fig. 5 MIX4 > 0.25,29,,38.0,
+Fig. 5 PW4 0,58,,89.0,
+"Fig. 5 PW4 (0, 0.1]",144,,246.0,
+"Fig. 5 PW4 (0.1, 0.25]",121,,175.0,
+Fig. 5 PW4 > 0.25,23,,29.0,
+Table 1,1289,,,
+Table 3,1289,,,
+Table 2 RankZephyr 동일 입력 재실행 (관련–비관련),50,,,110252.0
+Table 2 RankZephyr 교체 관련–비관련 bm25–splade,1289,,,168339.0
+Table 2 RankZephyr 교체 관련–비관련 bm25–dense,1289,,,100948.0
+Table 2 RankZephyr 교체 관련–비관련 splade–dense,1289,,,202863.0
+Table 2 RankZephyr 교체 관련–비관련 (전체),1289,,,472150.0
+Table 2 RankZephyr 교체 관련–관련 (전체),1289,,,206646.0
+"Table 2 RankZephyr 교체 관련–비관련, DL19+DL20만 (전체)",97,,,101344.0
+Table 2 FIRST 동일 입력 재실행 (관련–비관련),10,,,19198.0
+Table 2 FIRST 교체 관련–비관련 bm25–splade,1289,,,168339.0
+Table 2 FIRST 교체 관련–비관련 bm25–dense,1289,,,100948.0
+Table 2 FIRST 교체 관련–비관련 splade–dense,1289,,,202863.0
+Table 2 FIRST 교체 관련–비관련 (전체),1289,,,472150.0
+Table 2 FIRST 교체 관련–관련 (전체),1289,,,206646.0
+"Table 2 FIRST 교체 관련–비관련, DL19+DL20만 (전체)",97,,,101344.0
+Appendix C TREC DL,97,,,
+Appendix C BEIR,1192,,,
+Appendix C dl19,43,,,
+Appendix C dl20,54,,,
+Appendix C nfcorpus,228,,,
+Appendix C fiqa,476,,,
+Appendix C scifact,184,,,
+Appendix C dbpedia,304,,,
