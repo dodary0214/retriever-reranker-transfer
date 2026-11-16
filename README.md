@@ -161,7 +161,7 @@ means the same as "reversal" in the article. `PW4` is the k = 0 set and `MIX4` i
 | Table A1 | sensitivity of the k = 0 − k = 2 difference | `derived/ksets_robust_A3.csv`, `derived/ksets_robust_S3.csv`, `derived/qwen_kappa.csv` |
 | Table A2 | agreement by dataset | `derived/ksets_robust_B1.csv` |
 | Table A3 | matched-core substitutions | `derived/matched_swap_swaps_summary.csv`, `derived/matched_swap_model_identity.csv` |
-| Fig. A1 | reversal rate and top-1 change (`RESULTS.md`: "Fig. 5") | `derived/ksets_fig5_groups.csv` |
+| Fig. 5 | reversal rate and top-1 change (`RESULTS.md`: "Fig. 5") | `derived/ksets_fig5_groups.csv` |
 | Table B1 | Experiment 2 conditions | `../manifests/experiment2_pairs.tsv`, `controlled_context/*.csv` |
 
 The plotted figures are in `results/figures/` under descriptive names (see its README).
